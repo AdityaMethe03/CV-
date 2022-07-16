@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/AdityaMethe03/CV-/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-### Markdown
+<head>
+  <meta charset="utf-8">
+  <title>Angela's personal site</title>
+</head>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<body>
+  <table cellspacing="20">
+    <tr>
 
-```markdown
-Syntax highlighted code block
+      <td><img src="Angela Yu.jpg" alt="Angela profile picture"></td>
+      <td>
+        <h1>Angela Yu</h1>
+        <p><em>Founder and CTO of <strong><a href="https://appbrewery.com/"> The App Brewery </a></strong></em></p>
+        <p>I am iOS and Web Developer. I ❤️ coffee and brew my own beers.</p>
+      </td>
 
-# Header 1
-## Header 2
-### Header 3
+    </tr>
+  </table>
+  <hr>
+  <h3>Books and Teaching</h3>
+  <ul>
+    <li>The Complete iOS App Development Bootcamp</li>
+    <li>The Complete Web Development Bootcamp</li>
+  </ul>
+  <hr>
 
-- Bulleted
-- List
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2019-2022</td>
+        <td>Lead Developer at Tempo App</td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>Researcher at the Institute of Cognitive Neurodciences</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
 
-1. Numbered
-2. List
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>C/C++</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Data Structure</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+  </table>
 
-**Bold** and _Italic_ and `Code` text
+  <hr>
+  <a href="hobbies.html">My Hobbies</a><br>
+  <a href="contact-me.html">Contact-me</a>
+  <marquee>You are on a </marquee>
+</body>
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AdityaMethe03/CV-/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
